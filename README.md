@@ -68,24 +68,24 @@ flowchart LR
   E11 --> E12[PLACEHOLDER]
   E8 --> E13[PLACEHOLDER]
   E9 --> E13
+  
+%% This is the captain's branch
+  D --> D1(Wake up on the bridge as the captain)
 
-%% This is the Captains branch
-  D --> D1(PLACEHOLDER)
+  D1 --> D2(Try to steer the ship)
+  D1 --> D3(Call engineering)
+  D1 --> D4(Check the navigation logs)
 
-  D1 --> D2(PLACEHOLDER)
-  D1 --> D3(PLACEHOLDER)
-  D1 --> D4(PLACEHOLDER)
+  D2 --> D5{Manual steering puzzle}
+  D3 --> D6[Engineering reports a power failure]
+  D4 --> D7(Find a record of the last autopilot update)
 
-  D2 --> D5{PLACEHOLDER}
-  D3 --> D6[PLACEHOLDER]
-  D4 --> D7(PLACEHOLDER)
+  D5 --> D8(The controls respond too slowly)
+  D6 --> D9{Backup power puzzle}
+  D7 --> D10(Find the emergency override code in the log)
 
-  D5 --> D8(PLACEHOLDER)
-  D6 --> D9{PLACEHOLDER}
-  D7 --> D10(PLACEHOLDER)
-
-  D10 --> D11{PLACEHOLDER}
-  D11 --> D12[PLACEHOLDER]
-  D8 --> D13[PLACEHOLDER]
+  D10 --> D11{Autopilot override puzzle}
+  D11 --> D12[WIN - Regain control and save the ship]
+  D8 --> D13[LOSE - The ship crashes]
   D9 --> D13
 
