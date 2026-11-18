@@ -3,11 +3,14 @@ Final Project for web115 browser based story
 
 ## Team Members:
 - Colin Crowe
-- Dat Trinh
+- Dat Trinh - Writes the captain's story path and builds its flowchart branch.
 - Alyna Shepherd
 
 ## Application Overview
 Play as a ghost on a crashing spaceship! Possess passengers on board and try to find a way to stop the ship from crashing!
+
+### How to play
+Choose to possess the captain, a passanger, or a maintance worker. Click the choice buttons to decide what your character does next. Each Character has a different story path, and your choice determines whether you save the ship.
 
 ## Story Flowchart
 ***PLACEHOLDER UNFINISHED***
