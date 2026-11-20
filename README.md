@@ -4,17 +4,18 @@ Final Project for web115 browser based story
 ## Team Members:
 - Colin Crowe
 - Dat Trinh - Writes the captain's story path and builds its flowchart branch.
-- Alyna Shepherd
+- Alyna Shepherd - Writes the maintenance workers story path and builds its flowchart branch.
 
 ## Application Overview
 Play as a ghost on a crashing spaceship! Possess passengers on board and try to find a way to stop the ship from crashing!
 
 ### How to play
-Choose to possess the captain, a passanger, or a maintance worker. Click the choice buttons to decide what your character does next. Each Character has a different story path, and your choice determines whether you save the ship.
+Choose to possess the captain, a passenger, or a maintenance worker. Click the choice buttons to decide what your character does next. Each Character has a different story path, and your choice determines whether you save the ship. Try to find the best path to saving the ship, as there is only one route per person that allows you to save the ship!
 
 ## Story Flowchart
 ***PLACEHOLDER UNFINISHED***
-<img width="8192" height="5951" alt="image" src="https://github.com/user-attachments/assets/e8f82573-9530-4c42-ac7c-e98b2de7032f" />
+<img width="8192" height="6411" alt="Option Evaluation Decision Tree-2026-11-20-203347" src="https://github.com/user-attachments/assets/464c2353-a7e4-450b-bb91-63a38c46435e" />
+
 flowchart LR
   A[start] --> C(Intro/plane crash)
   C --> B(Choose who to possess)
