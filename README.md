@@ -13,8 +13,8 @@ Play as a ghost on a crashing spaceship! Possess passengers on board and try to 
 Choose to possess the captain, a passenger, or a maintenance worker. Click the choice buttons to decide what your character does next. Each Character has a different story path, and your choice determines whether you save the ship. Try to find the best path to saving the ship, as there is only one route per person that allows you to save the ship!
 
 ## Story Flowchart
-***PLACEHOLDER UNFINISHED***
-<img width="8192" height="6411" alt="Option Evaluation Decision Tree-2026-11-20-203347" src="https://github.com/user-attachments/assets/464c2353-a7e4-450b-bb91-63a38c46435e" />
+
+<img width="8192" height="6411" alt="Option Evaluation Decision Tree-2026-11-22" src="https://github.com/user-attachments/assets/58bba3a6-22d6-4796-b065-6ece556d99c6" />
 
 flowchart LR
   A[start] --> C(Intro/plane crash)
