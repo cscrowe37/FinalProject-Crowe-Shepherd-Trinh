@@ -16,6 +16,8 @@ Choose to possess the captain, a passenger, or a maintenance worker. Click the c
 
 <img width="8192" height="6411" alt="Option Evaluation Decision Tree-2026-11-22" src="https://github.com/user-attachments/assets/58bba3a6-22d6-4796-b065-6ece556d99c6" />
 
+### Mermaid Code Below
+
 flowchart LR
   A[start] --> C(Intro/plane crash)
   C --> B(Choose who to possess)
