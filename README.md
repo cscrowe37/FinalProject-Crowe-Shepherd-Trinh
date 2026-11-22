@@ -2,7 +2,7 @@
 Final Project for web115 browser based story
 
 ## Team Members:
-- Colin Crowe
+- Colin Crowe - Writes the Passenger's story and builds its flowchart branch.
 - Dat Trinh - Writes the captain's story path and builds its flowchart branch.
 - Alyna Shepherd - Writes the maintenance workers story path and builds its flowchart branch.
 
@@ -57,7 +57,7 @@ flowchart LR
   E1 --> E3(Wait for things to get fixed)
   E1 --> E4(Panic and try to find an escape craft)
 
-  E2 --> E5{Packing PUZZLE} %%riviting
+  E2 --> E5{Packing PUZZLE} 
   E3 --> E6[Watch out the side window]
   E4 --> E7(Pull the emergency switch?)
 
