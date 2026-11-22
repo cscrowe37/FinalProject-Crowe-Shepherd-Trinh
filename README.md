@@ -51,24 +51,25 @@ flowchart LR
 
 
 %% This is the Passengers branch
-  E --> E1(PLACEHOLDER)
+  E --> E1(Wake up in a bedroom)
 
-  E1 --> E2(PLACEHOLDER)
-  E1 --> E3(PLACEHOLDER)
-  E1 --> E4(PLACEHOLDER)
+  E1 --> E2(Pack up your bags)
+  E1 --> E3(Wait for things to get fixed)
+  E1 --> E4(Panic and try to find an escape craft)
 
-  E2 --> E5{PLACEHOLDER}
-  E3 --> E6[PLACEHOLDER]
-  E4 --> E7(PLACEHOLDER)
+  E2 --> E5{Packing PUZZLE} %%riviting
+  E3 --> E6[Watch out the side window]
+  E4 --> E7(Pull the emergency switch?)
 
-  E5 --> E8(PLACEHOLDER)
-  E6 --> E9{PLACEHOLDER}
-  E7 --> E10(PLACEHOLDER)
+  E5 --> E8(Slowly take everything to leave)
+  E6 --> E9{Aurora PUZZLE}
+  E7 --> E10(Get in an escape craft)
 
-  E10 --> E11{PLACEHOLDER}
-  E11 --> E12[PLACEHOLDER]
-  E8 --> E13[PLACEHOLDER]
+  E10 --> E11{Escape craft PUZZLE}
+  E11 --> E12[WIN-gets out and watches ship crash]
+  E8 --> E13[LOSE-Doesn't get off the ship]
   E9 --> E13
+
   
 %% This is the captain's branch
   D --> D1(Wake up on the bridge as the captain)
