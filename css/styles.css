@@ -1,0 +1,19 @@
+.background {
+    background-image: url(../img/potentialBGs/Base.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+
+/*
+All buttons, paragraphs, and visible components must be styled.
+*/
