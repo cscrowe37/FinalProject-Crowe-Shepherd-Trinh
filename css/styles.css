@@ -8,10 +8,57 @@
 
 h1{
     color: aliceblue;
+    text-align: center;
+    font-size: 40px;
 }
 
 p{
     color: aliceblue;
+    text-align: center;
+    font-size: 25px
+}
+
+#ghost {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#story-button-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#maintenance-worker-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#passenger-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+
+}
+
+#captain-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+
+
+
+
+[hidden] {
+    display: non !important;
 }
 
 /*
