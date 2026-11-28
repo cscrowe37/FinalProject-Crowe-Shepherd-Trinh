@@ -4,19 +4,21 @@
 
 // Requirements:
 
+// Items with *** in front indicate that we have already met this requirement in our project.
+
 /*
 Write your logic in small, reusable functions. If you repeat a tast more than once, it belongs in a function.
 
-A. Element references. Use document.getElementById() or similar methods to get
+***A. Element references. Use document.getElementById() or similar methods to get
 references to your paragraphs, buttons, and image, and store them in variables.
-B. Functions: Create functions that accomplish various things in your Interactive Story. For
+***B. Functions: Create functions that accomplish various things in your Interactive Story. For
 example, one function handles the image replacement on the page. Another function
 handles the text display on the page. A third function could check whether the user has
 input the correct password to open the safe.
 C. Conditonal Logic & Loops. Example: accumulate clues in an array; clicking a "Review
 Clues" button iterates the array and displays all found clues. Finding all clues unlocks the
 ability to solve the murder or unlock a secret ending.
-D. DOM Element Creation: Dynamically create elements using createElement,
+***D. DOM Element Creation: Dynamically create elements using createElement,
 appendChild, etc.
 E. Objects classes: Define and utilize at least 3 JavaScript objects using the class structure.
 F. JSON Integration: Design an object to store game state (e.g., playerStats) and
@@ -24,13 +26,13 @@ use JSON.stringify() and JSON.parse() to simulate saving or loading game data.
 G. Error handling: Implement error handling with try-catch blocks to prevent unexpected
 behavior.
 H. Cookies: At least one instance of
-I. Event listeners. Attach listeners to buttons and the document. On trigger, each listener
+***I. Event listeners. Attach listeners to buttons and the document. On trigger, each listener
 should accomplish tasks such as these (examples):
-J. Update one or more paragraph's textContent to advance the story. (Not every event
+***J. Update one or more paragraph's textContent to advance the story. (Not every event
 must change the image — some may only advance dialogue.)
-K. Change the image src when appropriate (e.g., image.src = "forest.jpg"). Keep all
+***K. Change the image src when appropriate (e.g., image.src = "forest.jpg"). Keep all
 referenced image files in the same directory.
-L. Modify at least one element's style (color, font, visibility, etc.) via CSS or inline JS.
+***L. Modify at least one element's style (color, font, visibility, etc.) via CSS or inline JS.
 M. Branch the story based on a variable (e.g., if (hasKey) { ... } else { ... })
 N. Pick up an item and add it to a visible inventory list using appendChild
 O. Track health/sanity/score with a variable and update a <span> or progress bar
